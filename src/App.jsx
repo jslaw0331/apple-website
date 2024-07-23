@@ -11,7 +11,7 @@ import * as Sentry from "@sentry/react"
 const App = () => {
 
   return (
-    <main className="">
+    <main className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Highlights />
